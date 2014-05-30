@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "avenirnext-roman";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../assets/avenirnext-roman.eot");
+  src: url("../assets/avenirnext-roman.eot?#iefix") format("embedded-opentype"), url("../assets/avenirnext-roman.woff") format("woff"), url("../assets/avenirnext-roman.ttf") format("truetype"), url("../assets/avenirnext-roman.svg#avenirnext-roman") format("svg");
+}
+
+@font-face {
+  font-family: "avenirnext-heavy";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../assets/avenirnext-heavy.eot");
+  src: url("../assets/avenirnext-heavy.eot?#iefix") format("embedded-opentype"), url("../assets/avenirnext-heavy.woff") format("woff"), url("../assets/avenirnext-heavy.ttf") format("truetype"), url("../assets/avenirnext-heavy.svg#avenirnext-heavy") format("svg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "avenirnext-roman", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #696b6c;
+}
+
+.container {
+  max-width: 940px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+.background {
+  background: #eeeeee;
+  margin-top: 5px;
+}
+
+.header-left, .header-right {
+  display: inline-block;
+}
+
+.header-left h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #1b2124;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  margin-top: 15px;
+}
+.header-nav ul li {
+  display: inline-block;
+}
+.header-nav ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #696b6c;
+  margin-left: 10px;
+}
+
+.header-nav .active {
+  color: #1b2124;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 805px;
+  margin: 0 auto;
+}
+.content h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #1b2124;
+  margin: 0;
+  padding-top: 45px;
+  font-weight: bold;
+}
+.content h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #1b2124;
+  margin: 0 0 35px 0;
+  font-weight: normal;
+}
+
+.replies h2 {
+  font-size: 24px;
+  color: #1b2124;
+  margin-top: 100px;
+}
+.replies p {
+  font-size: 18px;
+  margin: 0 0 0 35px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  margin: 30px;
+}
+.footer p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+.footer a {
+  color: #4c94cf;
+  text-decoration: none;
+}

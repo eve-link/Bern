@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Avenir Next Roman';
+  src: url('../assets/avenirnext-roman.eot?');
+  src: url('../assets/avenirnext-roman.eot?#iefix') format('embedded-opentype'),
+       url('../assets/avenirnext-roman.woff') format('woff'),
+       url('../assets/avenirnext-roman.ttf')  format('truetype'),
+       url('../assets/avenirnext-roman.svg#avernirnext-roman') format('svg');
+}
