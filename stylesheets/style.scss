@@ -68,6 +68,7 @@ body {
 		margin-top: 15px;
 		li {
 			display: inline-block;
+			font-weight: bold;
 			a {
 				font-size: 14px;
 				text-decoration: none;
@@ -93,7 +94,7 @@ body {
 		color:$h1-color;
 		margin: 0;
 		padding-top: 45px;
-			font-weight: bold;
+		font-weight: bold;
 	}
 	h3{
 		font-size: 24px;
@@ -104,6 +105,18 @@ body {
 	}
 	p{
 
+	}
+}
+.content-left, .content-right{
+	display: inline-block;
+}
+.content-left{
+	h1{
+		text-align:left;
+	}
+	a{
+		color: #4c94cf;
+		text-decoration: none;
 	}
 }
 
@@ -120,15 +133,15 @@ body {
 
 	}
 }
-	.footer{
-		margin:30px;
-		p{
-			font-size: 14px;
-			text-align:center;
-			margin:0;
-		}
-		a{
-			color: #4c94cf;
-			text-decoration: none;
-		}
+.footer{
+	margin:30px;
+	p{
+		font-size: 14px;
+		text-align:center;
+		margin:0;
 	}
+	a{
+		color: #4c94cf;
+		text-decoration: none;
+	}
+}

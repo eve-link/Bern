@@ -59,6 +59,7 @@ body {
 }
 .header-nav ul li {
   display: inline-block;
+  font-weight: bold;
 }
 .header-nav ul li a {
   font-size: 14px;
@@ -90,6 +91,18 @@ body {
   color: #1b2124;
   margin: 0 0 35px 0;
   font-weight: normal;
+}
+
+.content-left, .content-right {
+  display: inline-block;
+}
+
+.content-left h1 {
+  text-align: left;
+}
+.content-left a {
+  color: #4c94cf;
+  text-decoration: none;
 }
 
 .replies h2 {
